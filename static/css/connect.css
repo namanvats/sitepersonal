@@ -1,0 +1,37 @@
+body {
+background: url(../images/connect2.jpg) no-repeat center center fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+img {
+height:161px;
+width:100px;
+border:2px solid white;
+display:inline-block;
+}
+#one{
+    display:inline-block;
+    border:2px solid white;
+}
+#two{
+    display:inline-block;
+    border:2px solid white;
+}
+#three{
+    display:inline-block;
+    border:2px solid white;
+}
+p {
+color:white;
+font-family: 'Roboto', sans-serif;
+}
+a:hover{
+text-decoration:none;
+}
+#but{
+    float:left;
+    margin-top:2em;
+    margin-left:-6em;
+}

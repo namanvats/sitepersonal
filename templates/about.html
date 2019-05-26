@@ -1,0 +1,53 @@
+{% load static %}<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ME ;)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="btn-group btn-group-justified">
+        <a href="{% url 'home' %}" class="btn">Home</a>
+        <a href="{% url 'projects' %}" class="btn">Projects</a>
+        <a href="{% url 'connect' %}" class="btn">Connect</a>
+    </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div><img src="/static/images/me.jpg" id="me" alt="namanvats"></div>
+        <div class="intro">
+          <p>Naman Vats</p>
+          <p>ELectronics and Communication Engineer</p>
+          <p>Programmer | Developer</p>
+          <p>Geek in the making</p>
+        </div>
+      <a href="#"><center><div id="btn2">Resume</div></center></a>
+      </div>
+  <div class="col-sm-8">
+    <center><h1 id="heading">Wow, An entire page About me ;)</h1></center>
+    <br>
+    <div id="content">
+      <strong><p>Hi, I'm naman vats and I am an Electronics Engineering Undergraduate student at Birla Institute of Technology, Mesra, Ranchi.</p>
+      <p>I love programming as it makes me able to create things that I need, it gives me a kind of freedom to create whatever I want, whenever I need.
+        For me Programming is more than just skill, as when I tried it for the first time after getting into College it was kind of impossible task for me and I gave up, but soon after
+        few days I realised how much effective this thing is so I started again and continued till now, I do programming because I love computers and technologies and programming helps me connect with
+        the thing I love that is computers or more specifically computer systems.
+      </p>
+      <br>
+      </strong>
+    </div>
+    <center><h3>From my Kitchen :) </h3></center>
+
+</div>
+  </div>
+</div>
+</body>
+</html>
